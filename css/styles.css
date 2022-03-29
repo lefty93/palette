@@ -59,6 +59,6 @@ body {
 
 @media (min-width: 300px) {
   .container, .container2, .container3, .container4, .container5 {
-    width: 80%
+    width: 120%
   }
 }
