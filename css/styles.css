@@ -57,8 +57,9 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 300px) {
   .container, .container2, .container3, .container4, .container5 {
-    width: 120%
+    width: 100%;
+    height: 100%
   }
 }
