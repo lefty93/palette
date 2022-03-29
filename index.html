@@ -8,12 +8,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 </head>
 
 <body>
   <h1>Random Color Palettes Generator</h1>
   <h3>Lack of idea? Try this.</h3>
-  <div class="container-main">
+  <div class="container-main" id="capture">
     <div class="container">
       <h1>Background color: <span id="color"></span></h1>
     </div>
@@ -26,9 +27,11 @@
     <div class="container4">
       <h1>Background color: <span id="color4"></span></h1>
     </div>
-    <div class="container5">
-      <button id="genNew" type="button" name="button">Click Me!</button>
-    </div>
+
+  </div>
+  <div class="container5">
+    <button id="genNew" type="button" name="button">Click Me!</button>
+    <button id="btn" type="button" name="button">Download</button>
   </div>
 
 

@@ -1,4 +1,8 @@
-
+.container-main {
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .container {
   width: 500px;
   text-align: center;
