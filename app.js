@@ -9,5 +9,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(process.env.PORT || 3000, () => {
-  console.log(`Currently listening on port ${port}`);
+  console.log('Currently listening on port 3000');
 })
