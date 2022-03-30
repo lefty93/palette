@@ -16,6 +16,7 @@ const setBg = () => {
 genNew.addEventListener("click", setBg);
 setBg();
 
+
 function takeScreen() {
   const captureElement = document.querySelector('#capture')
   html2canvas(captureElement)
